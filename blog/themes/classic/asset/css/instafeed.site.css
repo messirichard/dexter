@@ -1,0 +1,16 @@
+#instafeed .instagram_image_meta {
+text-align: left;
+}
+#instafeed .instagram_image_meta .instagram_image_meta_item {
+width: auto;
+margin-right: 10px;
+background-color: transparent;
+}
+#instafeed .instagram_image_meta .instagram_image_meta_item {
+display: inline-block;
+width: 49%;
+background-color: #cccccc;
+height: 30px;
+-webkit-border-radius: 0 0 5px 5px;
+border-radius: 0 0 5px 5px;
+}

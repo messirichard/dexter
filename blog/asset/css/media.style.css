@@ -1,0 +1,224 @@
+/*----------------- Responsive ---------------------*/
+
+/* ------------------------------------------------------------------------------------- */
+
+/*----------------- Responsive ---------------------*/
+@media (max-width: 1300px){
+
+	.wrapper{
+		/*margin: 0 3em;*/
+	}
+	.container{
+		/*max-width: inherit;*/
+		/*width: 100%;*/
+		border: none;
+		/*padding: 0 15px;*/
+	}
+	.inh2-background{
+		width: 100%;
+	}
+	
+
+}
+@media (max-width: 1200px){
+	
+	.wrapper{margin: 0px;}
+	.inh2-background{ background-size: 100% 100%; }
+}
+
+/* Large desktop */
+@media (max-width : 1135px){
+	
+	.container{
+		max-width: inherit;
+		width: 100%;
+		border: none;
+		padding: 0 15px;
+	}
+	.back-contact-tophl{ right: 1em; }
+
+}
+/*(max-width : 1024px) and*/
+@media (max-width: 1200px){
+
+}
+
+@media (max-width : 1002px) {
+
+}
+
+@media (max-width: 980px){
+	
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.inh2-background{
+		background-size: cover;
+	}
+	.outer-wrapp-contshm{
+		background: url(../images/outer-background-dcb2.jpg) top center no-repeat;
+    	background-size: cover;
+	}
+}
+
+@media (min-width: 768px){
+	
+}
+
+@media (max-width: 768px){
+	
+	.inh2-background{
+		background-size: cover;
+	}
+	.outer-wrapp-contshm{
+		background: url(../images/outer-background-dcb2.jpg) top center no-repeat;
+    	background-size: cover;
+	}
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	
+	
+	.blocks_detail_tickets .info .shares_block p a i.fa{
+		color: #fff;
+	}
+	.blocks_detail_tickets .info .shares_block p,
+	.blocks_detail_tickets .info p,
+	a{
+		color: #fff;
+	}
+
+	.back-contact-tophl{
+		right: inherit;
+		margin: 0 auto;
+		/*left: 10.5%;*/
+		left: 7.5%;
+	}
+	.logo-web-decibles img{
+		max-width: 100%;
+	}
+	.logo-web-decibles{
+		/*margin: 2em 3em 0px;*/
+		max-width: 185px;
+		margin: 0 auto;
+		/*margin-top: 1em;*/
+		margin-top: 2.5em;
+	}
+	.tagline-home{ font-size: 30px; }
+	.text-footer{
+		margin: 0 2.5em;
+		padding-bottom: 1.5em;
+	}
+	footer.foot{
+		height: auto;
+	}
+
+	.inh2-background{
+		height: auto;
+		background: #fff url("../images/outer-back-white-2-fullt.png") no-repeat scroll center top;
+		/*padding-bottom: 2em;*/
+		padding-bottom: 1.5em;
+	}
+	.inh2-background,
+	.navbar-collapse{
+		position: relative;
+		z-index: 1000;
+	}
+	.navbar-default {
+		position: relative;
+		z-index: 1000;
+
+		margin: 0;
+		background: none;
+		background-color: #fff;
+		border-radius: 0px;
+		border: 0px;
+		border-bottom: 0px;
+	}
+	.navbar-toggle {
+		margin-top: 14px;
+	}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	    background-color: rgba(221, 221, 221, 0.25);
+	}
+	.navbar-default .navbar-brand{ padding-bottom: 12px; color: #ff0000; font-weight: 700; }
+
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a,
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a {
+		color: #000;
+		font-size: 17px;
+		text-align: center;
+		/*padding: 7px 15px;*/
+	}
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	    color: #000;
+	    /*background-color: rgba(231, 231, 231, 0.14);*/
+	}
+	.navbar-default .navbar-toggle {
+	    border-color: #ddd;
+	    margin: 1em auto 0.3em;
+	    width: 45px;
+	    display: block;
+	    float: none;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		border-color: transparent;
+		margin: 0 -15px;
+	}
+
+	.list-data-tickets-t .pict{ margin-bottom: 2em; }
+
+	.block_floats_button{
+		display: none;
+	}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 600px) {
+	
+	.disn-block{
+		display: block;
+	}
+	.socials-bpurp span{
+		margin-bottom: 1em;
+	}
+	.h128{
+		height: auto;
+		padding-bottom: 1.7em;
+	}
+	.outer-videos-home > iframe,
+	.outer-videos-home > div{
+		width: 100% !important;
+	}
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.outer-wrapp-contshm{
+		background: url(../images/outer-background-dcb2-responsive.jpg) top center no-repeat;
+    	background-size: cover;
+	}
+	.outer-wrapp-contshm .height-50{
+		height: 20px;
+	}
+	
+}
+
+@media (max-width: 360px) {
+
+}
+
+@media (max-width: 358px) {
+	
+	.back-contact-tophl{
+		left: 1%;
+	}
+
+}
